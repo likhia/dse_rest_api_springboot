@@ -2,7 +2,7 @@ mvn clean compile
 
 mvn clean package 
 
-./mvnw spring-boot:run
+mvn spring-boot:run
 
 # Add Product
 curl --request POST \
@@ -25,7 +25,7 @@ curl --request PATCH \
 
 # Delete Product
 curl --request DELETE \
-    --url http://localhost:8080/product/delete/31aa4956-84a9-4b8a-93f1-e9d4fd26c700
+    --url http://localhost:8080/product/delete/3e6e0dbe-a8aa-448c-9244-5e7b3330f539
 
 
 
