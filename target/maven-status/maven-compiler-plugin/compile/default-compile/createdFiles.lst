@@ -1,0 +1,7 @@
+com/example/demo/DemoApplication.class
+com/example/demo/services/PatchProduct.class
+com/example/demo/services/Greeting.class
+com/example/demo/services/ProductService.class
+com/example/demo/services/Product.class
+com/example/demo/services/Data.class
+com/example/demo/services/GreetingService.class
