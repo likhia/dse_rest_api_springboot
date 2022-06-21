@@ -70,7 +70,7 @@ public class ProductService {
         try { 
             RestTemplate restTemplate = new RestTemplate();
 
-            String baseUrl = getBaseURL() + id  + "?fields=description%2C%20productname%2Cid%2Cprice"; 
+            String baseUrl = getBaseURL() + id  + "?fields=description%2C%20productname%2Cid%2Cprice%2Ccreated"; 
 
             URI uri = new URI(baseUrl);
         

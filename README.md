@@ -14,18 +14,18 @@ curl --request POST \
 
 # Get Product
 curl --request GET \
-    --url http://localhost:8080/product/get/e9b6c02d-0604-4bab-a3ea-6a7984654631
+    --url http://localhost:8080/product/get/5a1366d5-3b50-482c-ad15-6b6172680f1a
 
 # Update Product
 curl --request PATCH \
     --header 'content-type: application/json' \
     --url http://localhost:8080/product/update \
-    --data '{"id":"b34d19cb-e284-4a58-bb76-b4fca89cf475","productname":"Product Name 2","description":"Product Description 2","price":"123.88","created":""}'
+    --data '{"id":"5a1366d5-3b50-482c-ad15-6b6172680f1a","productname":"Product Name 2","description":"Product Description 2","price":"123.88","created":""}'
 
 
 # Delete Product
 curl --request DELETE \
-    --url http://localhost:8080/product/delete/3e6e0dbe-a8aa-448c-9244-5e7b3330f539
+    --url http://localhost:8080/product/delete/5a1366d5-3b50-482c-ad15-6b6172680f1a
 
 
 
