@@ -11,6 +11,7 @@ curl --request POST \
     --url http://localhost:8080/product/add \
     --data '{"id":"","productname":"Product Name 1","description":"Product Description 1","price":"99.99","created":""}'
 
+Get the return ID and paste it for Get, Update and Delete Product below.
 
 # Get Product
 curl --request GET \
